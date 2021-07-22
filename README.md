@@ -1,3 +1,19 @@
+# Dogecoin Hashes Library
+
+This repository was forked from
+[bitcoin_hashes](https://github.com/rust-bitcoin/bitcoin_hashes) in an effort
+to work with Dogecoin in Rust.
+
+The dogecoin patchset is extremely small, currently all we do is:
+
+- Add this section to the README.
+- Rename the package.
+- Depend upon [rust-dogecoin](https://github.com/tobin-crypto/rust-dogecoin)
+  (dogecoin fork of
+  [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)).
+
+## ----- Original bitcoin_hashes README ------
+
 [![Status](https://travis-ci.org/rust-bitcoin/bitcoin_hashes.png?branch=master)](https://travis-ci.org/rust-bitcoin/bitcoin_hashes)
 
 # Bitcoin Hashes Library

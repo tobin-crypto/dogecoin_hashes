@@ -1,5 +1,5 @@
 [package]
-name = "bitcoin_hashes"
+name = "dogecoin_hashes"
 version = "0.10.0"
 authors = ["Andrew Poelstra <apoelstra@wpsoftware.net>"]
 license = "CC0-1.0"
@@ -11,7 +11,7 @@ keywords = [ "crypto", "bitcoin", "hash", "digest" ]
 readme = "README.md"
 
 [lib]
-name = "bitcoin_hashes"
+name = "dogecoin_hashes"
 path = "src/lib.rs"
 
 [features]
